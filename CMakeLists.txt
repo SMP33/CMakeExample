@@ -9,6 +9,7 @@ project ("CMakeExample" CXX)
 # Include sub-projects.cd .
 add_subdirectory ("CMakeExample")
 
+# You should comment out all the code below so that project files are generated for *nix too.
 install(TARGETS
         ExampleLibrary
         EXPORT Targets
